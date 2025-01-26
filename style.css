@@ -35,6 +35,12 @@ body {
   margin: 1em auto;
 }
 
+.btn:active,
+.btn-container:active {
+  transform: scale(95%);
+  transition: 100ms;
+}
+
 .btn,
 .terms-link {
   text-decoration: none;
@@ -65,6 +71,7 @@ body {
   border-radius: 10px;
   padding: 1em 0;
   margin-bottom: 0;
+  box-shadow: 0 8px rgba(0, 0, 0, 0.178);
 }
 
 input {
@@ -99,6 +106,7 @@ input,
   padding: 1.25em 0;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  cursor: pointer;
 }
 
 .terms {
